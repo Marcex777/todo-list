@@ -14,7 +14,7 @@ document.getElementById("FormularioTareas").addEventListener("submit", function(
   
     let NuevaTarea = document.createElement("div");
     NuevaTarea.className = "BloqueTarea";
-    NuevaTarea.textContent = `Tarea: ${NOMBRE} | Fecha: ${FECHA} | Tipo: ${TIPO} | Prioridad: ${PRIORIDAD} | Descripción: ${DESCRIPCION}`;
+    NuevaTarea.textContent = `Tarea: ${NOMBRE} con Fecha: ${FECHA} de Tipo: ${TIPO}, con Prioridad: ${PRIORIDAD} y con esta Descripción: ${DESCRIPCION}`;
   
     document.getElementById("CajaTareas").appendChild(NuevaTarea);
   
